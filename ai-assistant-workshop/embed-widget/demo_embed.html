@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot | Giải pháp AI & Dữ liệu</title>
+    <style>
+        /* Reset CSS cơ bản */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #334155;
+            line-height: 1.6;
+        }
+
+        /* Phần Hero Banner (Khu vực nổi bật nhất) */
+        .hero {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: white;
+            padding: 120px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Tạo hiệu ứng lưới nền mờ ảo cho công nghệ */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+            background-size: 30px 30px;
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        /* Phần hiển thị Dịch vụ / Tính năng */
+        .features {
+            max-width: 1100px;
+            margin: -50px auto 50px;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+            border-top: 4px solid #6366f1;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.5rem;
+            color: #0f172a;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: #64748b;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px;
+            background-color: #0f172a;
+            color: #64748b;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Khu vực Banner chính -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>HELLO</h1>
+            <p>Chuyên gia phát triển AI, Xử lý Dữ liệu và Tích hợp Trợ lý Ảo Thông minh cho doanh nghiệp. Khám phá sức mạnh tự động hóa ngay trên trang web này.</p>
+        </div>
+    </header>
+
+    <!-- Khu vực giới thiệu năng lực -->
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-icon">🧠</div>
+            <h3>Mô hình AI Hiện đại</h3>
+            <p>Xây dựng hệ thống suy luận logic tích hợp các kỹ thuật NLP, RAG, tự động đọc hiểu và tóm tắt tài liệu PDF chuyên sâu.</p>
+        </div>
+        
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>Tự động hóa Công cụ</h3>
+            <p>Phát triển Agentic AI có khả năng tự đưa ra quyết định, sử dụng bộ công cụ (Tools) để gọi API thời tiết, tính toán dữ liệu theo thời gian thực.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>Widget Thông minh</h3>
+            <p>Trải nghiệm ngay Trợ lý AI ở góc dưới bên phải màn hình. Giao diện Glassmorphism độc lập, tích hợp vào mọi nền tảng chỉ với 1 dòng script.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AI Solutions. Xây dựng bằng FastAPI & Google Gemini API.</p>
+    </footer>
+
+    <!-- DÒNG SCRIPT GỌI TRỢ LÝ AI CỦA BẠN (Giữ nguyên không đổi) -->
+    <script src="http://localhost:8000/embed-widget/widget.js"></script>
+
+</body>
+</html>
